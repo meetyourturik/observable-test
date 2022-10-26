@@ -13,6 +13,6 @@ public class WrapperExample {
     }
 
     public static void main(String[] args) {
-        apply("%d");
+        apply("%d").subscribe((m) -> {}, (e) -> {});
     }
 }

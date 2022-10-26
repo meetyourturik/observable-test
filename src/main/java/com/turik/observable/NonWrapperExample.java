@@ -13,6 +13,6 @@ public class NonWrapperExample {
     }
 
     public static void main(String[] args) {
-        apply("%d");
+        apply("%d").subscribe((m) -> {}, (e) -> {});
     }
 }
